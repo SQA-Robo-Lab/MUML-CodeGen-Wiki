@@ -6,9 +6,9 @@ This documentation server the purpose to assist potential future developers in g
 
 The relevant source code repositories for the distributed code generator are the following ones. They all expose their functionality via an Eclipse plugin. Eclipse plugins are implemented in Java, a lot of the code is generated. The acutal functionality of the plugin may be implemented with other languages / tools and is integrated into Eclipse via the plugin code. The MUML Tool Suite is an Eclipse-based IDE which simply consisist of a specific set of plugins. 
 * The [Component Code Generator](https://github.com/fraunhofer-iem/mechatronicuml-cadapter-component-type): only compatibility adaptions have been implemented in the extension presented in the aforementione Master's thesis.
-* The [Platform-Specific Modeling(https://github.com/fraunhofer-iem/mechatronicuml-psm): Contains the MechatronicUML Deployment Configuration metamodel with its extensions for MQTT and I2C communication presented in the aforementioned Master's thesis. The original DDS configuration is also still supported. The repository also conatins the QVTo transformation to generate a deployment configuration from an allocation specification. 
+* The [Platform-Specific Modeling](https://github.com/fraunhofer-iem/mechatronicuml-psm): Contains the MechatronicUML Deployment Configuration metamodel with its extensions for MQTT and I2C communication presented in the aforementioned Master's thesis. The original DDS configuration is also still supported. The repository also conatins the QVTo transformation to generate a deployment configuration from an allocation specification. 
 * The [Container Code Generator](https://github.com/fraunhofer-iem/mechatronicuml-cadapter-component-container): Contains the Acceleo model-to-text transformation to generate the source code. This is where the original C container code generation is implemented. The source code generation for Arduino has been added here. 
-* 
+
 ## Setting up the MUML Tool Suite as IDE
 
 The MUML Tool Suite can be used both to develop as well as to launch and test the model transformation and code generation functionality. All of the code in the repositories listed above can be edited with the tools and editors that are inlcuded in the [MUML Tool Suite in version 1.0](https://github.com/SQA-Robo-Lab/MUML_1_0-win32-x86_64).
