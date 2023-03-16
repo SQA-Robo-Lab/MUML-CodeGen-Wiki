@@ -4,7 +4,7 @@ There is quite a bit of code generation already possible with the [MechatronicUM
 
 As not all shortcomings of the past can be addressed, this wiki focues on
 * Giving an overview about the code generion endeavors regarding the MUML (-> this page)
-* Describing the newest additions: [The Master's Thesis in ILIAS](https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_fold_2617551.html)
+* Describing the newest additions: [The Master's Thesis](http://dx.doi.org/10.18419/opus-12528)
 * [User documentation: how to use the code generation?](user-documentation/main.md)
 * [Developer documentation: how can the code generation be improved, extended, customized?](dev-documentation/main.md)
 
